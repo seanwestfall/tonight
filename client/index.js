@@ -4,11 +4,11 @@ var fade = require('./fade')
 var cards = require('./cards')
 
 var FADE_DURATION = 1000
-var SLIDE_DURATION = 5000
+var SLIDE_DURATION = 15000
 
 window.document.title = 'Tonight at js.la!'
 
-var isPaused = true
+var isPaused = false
 
 appendCards(cards)
 

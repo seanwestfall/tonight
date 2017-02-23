@@ -1,35 +1,32 @@
 {
-  "name": "live-program2",
+  "name": "tonight.js.la",
   "version": "1.0.0",
   "description": "",
-  "main": "client/entry.coffee",
+  "main": "index.js",
   "scripts": {
-    "prestart": "(rm public/main.js; exit 0)",
-    "start": "beefy --cwd public client/entry.coffee:main.js",
-    "build": "browserify client/entry.coffee | uglifyjs -mc > public/main.js",
-    "deploy": "npm run build && surge public"
+    "start": "budo client/index.js -l -d public -- -t cssify"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsla/tonight.git"
+  },
+  "keywords": [],
   "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
   "license": "MIT",
-  "dependencies": {
-    "beefy": "^2.1.3",
-    "browserify": "^9.0.3",
-    "coffeeify": "^1.0.0",
-    "cssify": "^1.0.3",
-    "jade": "^1.9.2",
-    "jadeify": "^4.1.0",
-    "jquery": "^2.1.3"
+  "bugs": {
+    "url": "https://github.com/jsla/tonight/issues"
   },
-  "browserify": {
-    "transform": [
-      "coffeeify",
-      "jadeify",
-      "cssify"
-    ]
-  },
+  "homepage": "https://github.com/jsla/tonight#readme",
   "devDependencies": {
-    "browserify": "^9.0.8",
-    "surge": "^0.17.7",
-    "uglify-js": "^2.6.2"
+    "browserify": "^14.0.0",
+    "budo": "^9.4.7",
+    "standard": "^8.6.0",
+    "surge": "^0.18.0",
+    "uglify-js": "^2.7.5"
+  },
+  "dependencies": {
+    "cssify": "^1.0.3",
+    "hyperscript": "^2.0.2",
+    "zanimo": "^1.1.3"
   }
 }

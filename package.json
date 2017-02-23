@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo client/index.js -l -d public -- -t cssify"
+    "start": "budo client/index.js -l -d public -- -t cssify",
+    "build": "browserify -t cssify client/index.js | uglifyjs -mc > public/index.js",
+    "deploy": "npm run build && surge public"
   },
   "repository": {
     "type": "git",

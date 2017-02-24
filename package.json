@@ -27,8 +27,10 @@
     "uglify-js": "^2.7.5"
   },
   "dependencies": {
+    "accounting": "^0.4.1",
     "cssify": "^1.0.3",
     "hyperscript": "^2.0.2",
+    "raf": "^3.3.0",
     "zanimo": "^1.1.3"
   }
 }

@@ -5,6 +5,9 @@ module.exports = h('.next',
 
   h('h1', 'Thursday, March 30th at Nation Builder'),
 
+  h('h2', 'Gregor Martynus on Building Offline First Apps'),
+  h('h2', 'Lauren Spiegel on Having Your Very Own S3'),
+
   h('div', {style: {'margin-top': '5%'}},
     h('h2', 'Tickets will go fast.'),
     h('h2', 'Join the mailing list to know as soon as tickets are available'),

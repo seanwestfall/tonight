@@ -1,9 +1,8 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'BomBora'),
-  h('h2', 'How To Hold Down Your Vegemite in a Non-Stop Sea of Waves'),
-  h('h2', 'Keith Moore'),
+  h('h1', 'Building Offline First Apps with Hoodie'),
+  h('h2', 'Gregor Martynus'),
 
-  h('img', {src: '/img/speakers/keith-moore.png', style: {width: '50%'}})
+  h('img', {src: '/img/speakers/gregor-martynus.jpeg', style: {width: '50%'}})
 )

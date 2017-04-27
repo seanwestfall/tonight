@@ -13,7 +13,6 @@ module.exports = [
 
   require('./cards/youtube'),
   require('./cards/sponsors-wanted'),
-  require('./cards/sponsor3'),
   require('./cards/slack'),
   require('./cards/volunteer'),
   require('./cards/fullstack-react')

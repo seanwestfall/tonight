@@ -3,11 +3,16 @@ var h = require('hyperscript')
 module.exports = h('.next',
   h('h1', {style: {'font-size': '400%'}}, 'Next js.la'),
 
-  h('h1', 'Thursday, April 27th at Philosophie'),
+  h('h1', 'Thursday, May 25th at Google'),
 
   h('div', {style: {'margin-top': '10%'}},
-    h('h2', 'Jason Campbell on JS: The Gateway Drug'),
-    h('h2', 'Lauren Spiegel on Having Your Very Own S3')
+    h('h2', 'David Guttman'),
+    h('h2', 'The Rise of the Sound-Reactive, Beat-Detecting, Robotic Browser VJ')
+  ),
+
+  h('div', {style: {'margin-top': '10%'}},
+    h('h2', 'Zeno Rocha'),
+    h('h2', 'Web APIs You (Probably) Didn\'t Know Existed')
   ),
 
   h('div', {style: {'margin-top': '10%'}},

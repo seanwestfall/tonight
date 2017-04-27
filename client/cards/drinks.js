@@ -4,6 +4,6 @@ module.exports = h('.drinks',
   h('h1', 'Drinks.js @ 9pm'),
 
   h('img', {src: '/img/drinks/logo.png'}),
-  h('h1', 'Golden Gopher'),
-  h('h2', '417 W 8th St (between Hill and Olive)')
+  h('h1', 'Barkowski'),
+  h('h2', '2819 Pico Blvd (Pico & 28th)')
 )

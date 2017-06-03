@@ -1,7 +1,7 @@
 var h = require('hyperscript')
 
 module.exports = h('.drinks',
-  h('.map',
-    h('img.frame', {src: '/img/sponsors/host-headspace.png'})
+  h('.map', {style: {background: 'white', padding: '40px'}},
+    h('img.frame', {src: '/img/sponsors/host-razorfish.png'})
   )
 )

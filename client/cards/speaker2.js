@@ -1,8 +1,8 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'Wheels, Gears, and Labyrinths'),
-  h('h2', 'Jim Bumgardner'),
+  h('h1', 'Attacking Hardware with Node.js'),
+  h('h2', 'Samy Kamkar'),
 
-  h('img', {src: '/img/speakers/jbum.jpg', style: {width: '50%'}})
+  h('img', {src: '/img/speakers/samy-kamkar.jpg', style: {width: '50%'}})
 )

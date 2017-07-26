@@ -7,9 +7,9 @@ module.exports = [
 
   require('./cards/lunch'),
   require('./cards/speakers-wanted'),
-  require('./cards/sponsor2'),
+  //require('./cards/sponsor2'),
   require('./cards/speaker2'),
-  require('./cards/next'),
+  //require('./cards/next'),
 
   require('./cards/youtube'),
   require('./cards/sponsors-wanted'),

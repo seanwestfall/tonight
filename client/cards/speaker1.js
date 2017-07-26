@@ -1,8 +1,8 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'Career Talk: JavaScript Unicorns'),
-  h('h2', 'Jason Campbell'),
+  h('h1', 'Preventing Accessibility Penalties at the NFL'),
+  h('h2', 'James Hush'),
 
-  h('img', {src: '/img/speakers/jason-campbell.jpg', style: {width: '50%'}})
+  h('img', {src: '/img/speakers/james-hush.jpg', style: {width: '50%'}})
 )

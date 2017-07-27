@@ -1,8 +1,8 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'The Rise of the Sound-Reactive, Beat-Detecting, Robotic Browser VJ'),
-  h('h2', 'David Guttman'),
+  h('h1', 'Preventing Accessibility Penalties at the NFL'),
+  h('h2', 'James Hush'),
 
-  h('img', {src: '/img/speakers/davidguttman.png', style: {width: '30%'}})
+  h('img', {src: '/img/speakers/james-hush.jpg', style: {width: '50%'}})
 )

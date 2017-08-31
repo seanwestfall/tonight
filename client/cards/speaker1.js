@@ -1,8 +1,8 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'Career Talk: JavaScript Unicorns'),
-  h('h2', 'Jason Campbell'),
+  h('h1', 'Why you should (almost) always use stateful components in React'),
+  h('h2', 'Aaron Craig'),
 
-  h('img', {src: '/img/speakers/jason-campbell.jpg', style: {width: '50%'}})
+  h('img', {src: '/img/speakers/aaron-craig.jpeg', style: {width: '50%'}})
 )

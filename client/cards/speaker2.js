@@ -1,8 +1,8 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'High Performance Node.js: Learn How To Full Throttle Your Code'),
-  h('h2', 'Lauren Spiegel & Giorgio Regni'),
+  h('h1', 'The Peer-to-peer Web'),
+  h('h2', 'Paul Frazee'),
 
-  h('img', {src: '/img/speakers/lauren-spiegel.jpg', style: {width: '50%'}})
+  h('img', {src: '/img/speakers/paul-frazee.png', style: {width: '50%'}})
 )

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "budo client/index.js -l -d public -- -t cssify",
     "build": "browserify -t cssify client/index.js | uglifyjs -mc > public/index.js",
-    "deploy": "npm run build && surge public"
+    "deploy": "npm run build && surge public",
+    "test": "standard"
   },
   "repository": {
     "type": "git",

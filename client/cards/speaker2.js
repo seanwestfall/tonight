@@ -1,8 +1,8 @@
 var h = require('hyperscript')
 
 module.exports = h('.speaker',
-  h('h1', 'The Peer-to-peer Web'),
-  h('h2', 'Paul Frazee'),
+  h('h1', ''),
+  h('h2', ''),
 
-  h('img', {src: '/img/speakers/paul-frazee.png', style: {width: '50%'}})
+  h('img', {src: '', style: {width: '50%'}})
 )

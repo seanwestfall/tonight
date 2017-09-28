@@ -5,10 +5,12 @@ module.exports = h('.next',
 
   h('h1', 'Thursday, October 26th at Nation Builder'),
 
+  /*
   h('div', {style: {'margin-top': '10%'}},
-    h('h2', 'Erin McKean'),
-    h('h2', 'LoopBack at Wordnik')
+    h('h2', ''),
+    h('h2', '')
   ),
+  */
 
   h('div', {style: {'margin-top': '10%'}},
     h('h2', 'Justin Dorfman'),
